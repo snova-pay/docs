@@ -1,1 +1,90 @@
-{"title": "Документация Snova Pay"}
+{
+  "title": "Документация Snova Pay",
+  "description": "Руководства, API и модули интеграции для приема платежей",
+  "tabs": [
+    {
+      "id": "guides",
+      "title": "Руководство"
+    },
+    {
+      "id": "integrations",
+      "title": "Интеграции"
+    },
+    {
+      "id": "api",
+      "title": "API & Вебхуки"
+    }
+  ],
+  "groups": [
+    {
+      "id": "getting-started",
+      "title": "Быстрый старт",
+      "icon": "Rocket",
+      "items": [
+        {
+          "id": "quickstart",
+          "title": "Начало работы",
+          "path": "quickstart",
+          "file": "quickstart.md",
+          "description": "Первые шаги по подключению магазина и приёму платежей"
+        },
+        {
+          "id": "widget-integration",
+          "title": "Платежный виджет",
+          "path": "widget-integration",
+          "file": "widget-integration.md",
+          "description": "Встраивание всплывающей или встроенной платежной формы"
+        }
+      ]
+    },
+    {
+      "id": "integrations-group",
+      "title": "Готовые интеграции",
+      "icon": "Blocks",
+      "items": [
+        {
+          "id": "tilda",
+          "title": "Tilda Publishing",
+          "path": "integrations/tilda",
+          "file": "integrations/tilda.md",
+          "description": "Подключение приема платежей на сайте Tilda через кастомный шлюз"
+        },
+        {
+          "id": "insales",
+          "title": "InSales",
+          "path": "integrations/insales",
+          "file": "integrations/insales.md",
+          "description": "Модуль интеграции интернет-магазина на платформе InSales"
+        },
+        {
+          "id": "bitrix",
+          "title": "1C-Битрикс",
+          "path": "integrations/bitrix",
+          "file": "integrations/bitrix.md",
+          "description": "Платежный модуль для 1C-Битрикс Управление сайтом"
+        }
+      ]
+    },
+    {
+      "id": "api-group",
+      "title": "Разработчикам",
+      "icon": "Code",
+      "items": [
+        {
+          "id": "api-reference",
+          "title": "REST API Reference",
+          "path": "api-reference",
+          "file": "api-reference.md",
+          "description": "Спецификация и методы REST API для работы со счетами и транзакциями"
+        },
+        {
+          "id": "webhooks",
+          "title": "Вебхуки и уведомления",
+          "path": "webhooks",
+          "file": "webhooks.md",
+          "description": "Обработка обратных вызовов об успешных и отмененных оплатах"
+        }
+      ]
+    }
+  ]
+}
