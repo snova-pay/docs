@@ -1,6 +1,6 @@
 {
-  "title": "Документация Snova Pay",
-  "description": "Руководства, API и модули интеграции для приема платежей",
+  "title": "Документация SNOVA",
+  "description": "Подписки для интернет-магазинов: виджет, готовые интеграции с CMS, REST API и вебхуки",
   "tabs": [
     {
       "id": "guides",
@@ -26,14 +26,14 @@
           "title": "Начало работы",
           "path": "quickstart",
           "file": "quickstart.md",
-          "description": "Первые шаги по подключению магазина и приёму платежей"
+          "description": "Как устроена SNOVA и как подключить магазин: эквайринг, каталог, планы, виджет"
         },
         {
           "id": "widget-integration",
-          "title": "Платежный виджет",
+          "title": "Виджет подписки",
           "path": "widget-integration",
           "file": "widget-integration.md",
-          "description": "Встраивание всплывающей или встроенной платежной формы"
+          "description": "Установка виджета «Подписаться и сэкономить» на карточку товара на любом сайте"
         }
       ]
     },
@@ -44,24 +44,31 @@
       "items": [
         {
           "id": "tilda",
-          "title": "Tilda Publishing",
+          "title": "Tilda",
           "path": "integrations/tilda",
           "file": "integrations/tilda.md",
-          "description": "Подключение приема платежей на сайте Tilda через кастомный шлюз"
+          "description": "Виджет на страницах товаров и подписка на корзину для магазина на Tilda"
         },
         {
           "id": "insales",
-          "title": "InSales",
+          "title": "inSales",
           "path": "integrations/insales",
           "file": "integrations/insales.md",
-          "description": "Модуль интеграции интернет-магазина на платформе InSales"
+          "description": "Приложение «SNOVA — подписки» для магазина на inSales"
         },
         {
           "id": "bitrix",
-          "title": "1C-Битрикс",
+          "title": "1С-Битрикс",
           "path": "integrations/bitrix",
           "file": "integrations/bitrix.md",
-          "description": "Платежный модуль для 1C-Битрикс Управление сайтом"
+          "description": "Модуль «SNOVA — подписки» для 1С-Битрикс: Управление сайтом"
+        },
+        {
+          "id": "woocommerce",
+          "title": "WooCommerce",
+          "path": "integrations/woocommerce",
+          "file": "integrations/woocommerce.md",
+          "description": "Плагин «SNOVA — подписки v2» для WordPress и WooCommerce"
         }
       ]
     },
@@ -72,17 +79,17 @@
       "items": [
         {
           "id": "api-reference",
-          "title": "REST API Reference",
+          "title": "REST API",
           "path": "api-reference",
           "file": "api-reference.md",
-          "description": "Спецификация и методы REST API для работы со счетами и транзакциями"
+          "description": "Серверные методы: каталог, планы, оформление корзины, заказы, возвраты, подписки"
         },
         {
           "id": "webhooks",
-          "title": "Вебхуки и уведомления",
+          "title": "Вебхуки",
           "path": "webhooks",
           "file": "webhooks.md",
-          "description": "Обработка обратных вызовов об успешных и отмененных оплатах"
+          "description": "События об оплатах, возвратах и подписках, проверка подписи HMAC-SHA256"
         }
       ]
     }
